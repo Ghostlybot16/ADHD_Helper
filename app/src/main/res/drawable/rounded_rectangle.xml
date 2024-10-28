@@ -1,0 +1,5 @@
+<!-- rounded_rectangle.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white" /> <!-- Default color, can be overridden with backgroundTint -->
+    <corners android:radius="20dp" />
+</shape>

@@ -1,0 +1,20 @@
+<!-- res/drawable/ic_back_arrow.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    tools:ignore="ExtraText">
+
+    <!-- Arrow line -->
+    <path
+        android:fillColor="@color/text_color"
+        android:pathData="M15,18L9,12L15,6" />
+
+    <!-- Arrow base line -->
+    <path
+        android:fillColor="@color/text_color"
+        android:pathData="M9,12L21,12" />
+
+</vector>

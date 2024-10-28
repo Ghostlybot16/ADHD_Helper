@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="focus_mode_bg">#D0E8F2</color>     <!-- Light Blue for Focus Mode -->
+    <color name="expense_tracker_bg">#E6E6E6</color> <!-- Light Gray for Expense Tracker -->
+    <color name="habit_tracker_bg">#A0C4FF</color>  <!-- Dark Blue for Habit Tracker -->
+    <color name="custom_playlist_bg">#E6E6E6</color> <!-- Light Gray for Custom Playlist -->
+    <color name="planner_bg">#B7E4C7</color>        <!-- Light Green for Planner -->
+    <color name="notes_bg">#B3B3B3</color>          <!-- Dark Gray for Notes -->
+    <color name="header_text">#315B6D</color>       <!-- Dark Blue for Header Text -->
+    <color name="button_bg">#7A9E9F</color>         <!-- Background color for Log In button -->
+    <color name="button_bg_dark">#586F6B</color>    <!-- Background color for Sign Up button -->
+    <color name="text_color">#2F4F4F</color>        <!-- Default Text Color -->
+    <color name="background_color">#E8EAE6</color> <!-- Background color -->
+    <color name="button_color">#7A9E9F</color>     <!-- Log In Button color -->
+    <color name="button_dark_color">#586F6B</color> <!-- Sign Up Button color -->
+
+
+</resources>

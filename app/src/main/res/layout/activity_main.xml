@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F8F9FA">
+
+    <!-- Header Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to\nADHD Helper!"
+        android:textSize="32sp"
+        android:textColor="@color/header_text"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="4dp" />
+
+    <!-- Subtitle Text -->
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp"
+        android:text="An app dedicated to keep your spicy brain organized and thriving!"
+        android:textColor="#6E7F80"
+        android:textSize="16sp" />
+
+    <!-- Left Column with Focus Mode, Expense Tracker, Habit Tracker -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:gravity="end|center_vertical">
+
+            <!-- Focus Mode -->
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="58dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_rectangle"
+                android:backgroundTint="@color/focus_mode_bg"
+                android:gravity="center_vertical"
+                android:padding="8dp">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_focus_mode"
+                    android:contentDescription="Focus Mode Icon"
+                    android:paddingEnd="8dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Focus Mode"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- Expense Tracker -->
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="58dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_rectangle"
+                android:backgroundTint="@color/expense_tracker_bg"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="8dp">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_expense"
+                    android:contentDescription="Expense Tracker Icon"
+                    android:paddingEnd="8dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expense Tracker"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- Habit Tracker -->
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="58dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_rectangle"
+                android:backgroundTint="@color/habit_tracker_bg"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="8dp">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_habit"
+                    android:contentDescription="Habit Tracker Icon"
+                    android:paddingEnd="8dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Habit Tracker"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Right Column with Custom Playlist, Planner, Notes -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:gravity="start|center_vertical">
+
+            <!-- Custom Playlist -->
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="58dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_rectangle"
+                android:backgroundTint="@color/custom_playlist_bg"
+                android:gravity="center_vertical"
+                android:padding="8dp">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_playlist"
+                    android:contentDescription="Custom Playlist Icon"
+                    android:paddingEnd="8dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Custom Playlist"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- Planner -->
+
+            <!-- Notes -->
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_rectangle"
+                android:backgroundTint="@color/planner_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:contentDescription="Planner Icon"
+                    android:paddingEnd="8dp"
+                    android:src="@drawable/ic_planner" />
+
+                <TextView
+                    android:layout_width="63dp"
+                    android:layout_height="wrap_content"
+                    android:text="Planner"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="58dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_rectangle"
+                android:backgroundTint="@color/notes_bg"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:layout_marginTop="8dp">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_notes"
+                    android:contentDescription="Notes Icon"
+                    android:paddingEnd="8dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notes"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Log In and Sign Up Buttons -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Log In"
+        android:backgroundTint="@color/button_bg"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Sign Up"
+        android:backgroundTint="@color/button_bg_dark"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+
+</LinearLayout>
