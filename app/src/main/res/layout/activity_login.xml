@@ -52,7 +52,6 @@
         android:layout_below="@id/username"
         android:layout_marginTop="16dp"
         android:hint="Password"
-        android:backgroundTint="@android:color/transparent"
         android:padding="16dp"
         android:background="@drawable/rounded_edittext"
         android:textColor="@color/text_color"
