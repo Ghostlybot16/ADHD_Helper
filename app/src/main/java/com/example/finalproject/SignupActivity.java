@@ -7,6 +7,7 @@ import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.Calendar;
@@ -29,6 +30,9 @@ public class SignupActivity extends AppCompatActivity {
         passwordInput = findViewById(R.id.passwordInput);
         confirmPasswordInput = findViewById(R.id.confirmPasswordInput);
         Button signUpButton = findViewById(R.id.signUpButton);
+        Button loginButton = findViewById(R.id.loginButton);
+        ImageButton backbutton=  findViewById(R.id.goBackButton);
+
 
         dobInput.setOnClickListener(view -> showDatePickerDialog());
 
@@ -46,7 +50,11 @@ public class SignupActivity extends AppCompatActivity {
                 startActivity(new Intent(SignupActivity.this, LoginActivity.class));
                 finish();
             }
+
         });
+        loginButton.setOnClickListener(v -> startActivity(new Intent(SignupActivity.this, LoginActivity.class)));
+        backbutton.setOnClickListener(v -> startActivity(new Intent(SignupActivity.this, MainActivity.class)));
+
     }
 
     private void showDatePickerDialog() {

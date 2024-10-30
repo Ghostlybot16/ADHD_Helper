@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +27,7 @@ public class LoginActivity extends AppCompatActivity {
         Button loginButton = findViewById(R.id.login_button);
         Button signUpButton = findViewById(R.id.sign_up_button);
         TextView forgotPasswordText = findViewById(R.id.forgot_password);
+        ImageView backbutton=  findViewById(R.id.back_button);
 
         loginButton.setOnClickListener(v -> {
             String username = usernameEditText.getText().toString().trim();
@@ -40,8 +43,10 @@ public class LoginActivity extends AppCompatActivity {
                 Toast.makeText(LoginActivity.this, "Invalid credentials", Toast.LENGTH_SHORT).show();
             }
         });
+        backbutton.setOnClickListener(v -> startActivity(new Intent(LoginActivity.this, MainActivity.class)));
 
         signUpButton.setOnClickListener(v -> startActivity(new Intent(LoginActivity.this, SignupActivity.class)));
+
         forgotPasswordText.setOnClickListener(v -> startActivity(new Intent(LoginActivity.this, ForgotPasswordActivity.class)));
     }
 }
