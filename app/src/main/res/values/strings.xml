@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">final project</string>
+        <string name="today">Today</string>
+        <string name="reminders">Reminders</string>
+        <string name="todo">To-do</string>
+        <string name="plans">Plans</string>
+        <string name="no_plans">No plans added yet.</string>
+        <string name="focus_mode">Focus Mode</string>
+        <string name="off">OFF</string>
+
 </resources>

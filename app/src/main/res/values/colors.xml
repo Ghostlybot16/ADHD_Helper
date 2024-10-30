@@ -16,6 +16,11 @@
     <color name="background_color">#E8EAE6</color> <!-- Background color -->
     <color name="button_color">#7A9E9F</color>     <!-- Log In Button color -->
     <color name="button_dark_color">#586F6B</color> <!-- Sign Up Button color -->
+    <color name="primary_text">#333333</color>
+    <color name="secondary_text">#6C757D</color>
+    <color name="card_background">#E9ECEF</color>
+    <color name="accent_color">#FF6B6B</color> <!-- For the "Panic!" button -->
+
 
 
 </resources>

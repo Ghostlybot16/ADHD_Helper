@@ -21,7 +21,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -31,6 +30,13 @@
 
         <!-- Sign Up Activity -->
         <activity android:name=".SignupActivity" />
+
+        <!-- Forgot Password Activity -->
+        <activity android:name=".ForgotPasswordActivity" />
+
+        <!-- Home Page Activity -->
+        <activity android:name=".HomeActivity" />
+
     </application>
 
 </manifest>
