@@ -13,3 +13,17 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Ignore .idea files
+/.idea/
+
+#Ignore gradle files
+/.gradle/
+
+#Ignore temp files
+*.log
+*.temp
+*.tmp
+
+#Ignore class files
+*.class
